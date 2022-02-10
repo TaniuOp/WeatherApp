@@ -1,25 +1,6 @@
-React weather app using an API. Use Front-end libraries like React or Vue
-
-User story: I can see city weather as default, preferably my current location
-User story: I can search for city
-User story: I can see weather of today and the next 5 days
-User story: I can see the date and location of the weather
-User story: I can see according to image for each type of weather
-User story: I can see the min and max degree each day
-User story: I can see wind status and wind direction
-User story: I can see humidity percentage
-User story: I can see a visibility indicator
-User story: I can see the air pressure number
-User story(optional): I can request my current location weather
-User story(optional): I can convert temperature in Celcius to Fahrenheit and vice versa
-Icon: https://google.github.io/material-design-icons/
-
-API: https://www.metaweather.com/api/
-
-Tips: For Front-end developer, you can use https://cors-anywhere.herokuapp.com/ to help with accessing data from other websites that are normally forbidden by the same-origin policy of web browsers
-
-
 <h1 align="center">WEATHER APP</h1>
+
+<p> React weather app using an API. Use Front-end libraries like React or Vue </p>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -44,13 +25,32 @@ Tips: For Front-end developer, you can use https://cors-anywhere.herokuapp.com/ 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
-
+- [User story](#user-story)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Extra](#extra)
+
+<!-- USERSTORY -->
+
+## User story
+<ul>
+<li> User story: I can see city weather as default, preferably my current location</li>
+<li> User story: I can search for city</li>
+<li> User story: I can see weather of today and the next 5 days</li>
+<li> User story: I can see the date and location of the weather</li>
+<li> User story: I can see according to image for each type of weather</li>
+<li> User story: I can see the min and max degree each day</li>
+<li> User story: I can see wind status and wind direction</li>
+<li> User story: I can see humidity percentage</li>
+<li> User story: I can see a visibility indicator</li>
+<li> User story: I can see the air pressure number</li>
+<li> User story(optional): I can request my current location weather</li>
+<li> User story(optional): I can convert temperature in Celcius to Fahrenheit and vice versa</li>
+</ul>
 
 <!-- OVERVIEW -->
 
@@ -110,4 +110,8 @@ $ npm start
 - GitHub [@your-username](https://{github.com/your-usermame})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
 
+## Extra 
 
+<p> Icon: https://google.github.io/material-design-icons/</p>
+<p>API: https://www.metaweather.com/api/</p>
+<p>Use of https://cors-anywhere.herokuapp.com/ to help with accessing data from other websites that are normally forbidden by the same-origin policy of web browsers</p>
