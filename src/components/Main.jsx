@@ -58,16 +58,22 @@ const Main = () => {
     }
   };
 
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setSearchedCity(event.target.city.value);
+  };
+
   return (
     <div>
       <h1>CITY WEATHER</h1>
       <div className='formDiv'>
         <h1>Search city!</h1>
-        <form className='formBounce'>
+        <form className='formBounce' onSubmit={handleSubmit}>
           <input
             type='text'
             name='city'
             id='city'
+            autoComplete='off'
             onChange={(e) => {
               setSearchedCity(e.target.value);
             }}
