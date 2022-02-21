@@ -8,12 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
+    <a href="">
+      Demo (in progress)
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href="">
+      Solution (in progress)
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
@@ -25,6 +25,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
+
 - [User story](#user-story)
 - [Overview](#overview)
   - [Built With](#built-with)
@@ -37,6 +38,7 @@
 <!-- USERSTORY -->
 
 ## User story
+
 <ul>
 <li> User story: I can see city weather as default, preferably my current location</li>
 <li> User story: I can search for city</li>
@@ -70,8 +72,6 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
@@ -110,7 +110,7 @@ $ npm start
 - GitHub [@your-username](https://{github.com/your-usermame})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
 
-## Extra 
+## Extra
 
 <p> Icon: https://google.github.io/material-design-icons/</p>
 <p>API: https://www.metaweather.com/api/</p>

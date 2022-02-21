@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import './styles/styles.scss';
+import { transitions, positions, Provider as AlertProvider } from 'react-alert';
+import AlertTemplate from 'react-alert-template-basic';
 
 function App() {
+  const options = {
+    position: positions.BOTTOM_CENTER,
+    timeout: 5000,
+    offset: '30px',
+    transition: transitions.SCALE,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <BrowserRouter>
+        <AlertProvider template={AlertTemplate} {...options}>
+          <Main />
+        </AlertProvider>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
